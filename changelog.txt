@@ -1,3 +1,93 @@
+VERSION[beta][2026/07/24]
+
+--- New to Path of Building ---
+* Add support for Lesson of the Seasons spell barkskin mod (LocalIdentity)
+* Add support for Sinistral and Dextral Catalysts (Peechey)
+* Add support to auto calculate minion count for mods on Bonemeld and Farrul Bloodline (LocalIdentity)
+* Add support for Companionship Support (LocalIdentity)
+* Add support for Cast on Ward Break + Celestial Mathmatics + Ward bypass / chance to not break Bloodline nodes (LocalIdentity)
+* Add stat descriptions tooltip to Power Report (Peechey)
+* Timeless Jewel QoL: copy more and open link (vaisest)
+* Add sorting to add-modifier list (mcagnion)
+* Add masteries to power report (ksnyder9801)
+* Add sorting to enchant, corrupt, and implicit popups (mcagnion)
+* Fix stat comparison for radius jewels (timeless, Thread of Hope, etc.) (mcagnion)
+* Add abyss sockets to comparison tab (vaisest)
+* Add parsing support for the advanced copy/paste format (Wires77)
+* Port PoB 2 Oauth API (vaisest)
+* Add alt aura variant for Impresence (vaisest)
+* Add support for sorting my Minion specific stats (vaisest)
+* Allow Intuitive Leap -likes to shorten power report distance (vaisest)
+* Add support for Bifurcated Crits (vaisest)
+* Tree and item skill tooltips (vaisest)
+* Port Volatile Vaal Orb support (vaisest)
+* Implement trigger config matching and FieryImpactHeistMaceImplicit, TriggeredMoltenStrike skills (Paliak)
+* Add option to return to build selection when crashing (github-actions[bot])
+* Add option to disable scroll wheel interacting with controls (github-actions[bot])
+* Add support for Loyalty/damage taken from Companion's Life before you (github-actions[bot])
+* Add 3.29 skill trees (Wires77)
+* Add 3.29 arcane might wording (vaisest)
+* Add support for Runegraft of the Agile (czarandy)
+* [3.29] New witch notables (SaloEater)
+* More generous OAuth timeout (apYdr6uxv)
+* Port many PoB2 trader features (vaisest)
+* Improve cane of kulemak support  (vaisest)
+* Add support for pob.codes build exporting, and pob:// protocol for launching PoB from pob.codes (AdamZ-8113)
+* Add sidebar stat suffixes and compact value formatting toggle in options (KenManDev)
+* Allow calc panes to become overlay windows (xoxorwr)
+* Add new 3.29 uniques + update existing uniques from patch notes (hducati)
+* Add support for toggling foulborn modifiers on uniques (vaisest)
+* Add spectres Ravenous Bloodshaper, Undead Vaal Commander, Wild Homunculus, Violator (Peechey)
+
+--- Fixed Crashes ---
+* [pob2-port] Fix crash on hovering over legacy shared items (github-actions[bot])
+
+--- User Interface ---
+* Fix damage types mods in Mind over Matter Breakdown (Squamto)
+* Fix options menu overflowing screen boundaries (majochem)
+* Fix tooltip positioning and size for multi-column tooltips (majochem)
+* render ascendancy flavor text only at higher zoom levels (JustinStitt)
+* Change mod color priority - fractured+crafted mods should be fractured color (github-actions[bot])
+* Change border size to be 1 px (github-actions[bot])
+
+--- Fixed Calculations ---
+* Fix Prospero's Protection interaction with Iron Reflexes (Peechey)
+* Fix Divine Sentinel Templar Aura's duplicating effect (LocalIdentity)
+* Fix Raise Spectre damage being affected by hidden elemental conversion multiplier (LocalIdentity)
+* [pob2-port] Fix calculation of inverted Resistances when having a source of Penetration (github-actions[bot])
+* Fix Kinetic Fusillade not scaling Ailment damage per projectile (Trifall)
+* Fix impale DPS with zero duration (KenManDev)
+* Add support for increased mod magnitude mods (vaisest)
+
+--- Fixed Behaviours ---
+* Fix missing "Greater" gems from Imbued Support (Peechey)
+* Gem Selection Improvements (Peechey)
+* Fix Overloaded Intensity not capping to 3 stacks (LocalIdentity)
+* Set anchor collapse on comparison tab collectors (vaisest)
+* Fix cache invalidation bug when loading a new build (Paliak)
+* Fix compare config tab controls not supporting selections (github-actions[bot])
+* Fix The Dark Seer's "Unaffected by Blind" (Helyos96)
+* Fix comparing builds that used a tree with Radius Jewels (github-actions[bot])
+* [pob2-port] Fix eHP value decreasing when allocating defence nodes (github-actions[bot])
+
+--- Accuracy Improvements ---
+* Fix incorrect mod on Tawhanuku's Timing (Wires77)
+* Fix Heroic Tragedy variants not being correct in Timeless list (vaisest)
+* Fix catalyst lines not showing on import (Wires77)
+* Re-add Balbala variant (The Traitor) to Brutal Restraint (Sentinent)
+* Fix parsing Vaal Unique modifiers on items (vaisest)
+* Fix searching for Low Life in Config tab (github-actions[bot])
+* Mastery Mod (Not Supported) losing relationship to mod, when assigning masteries (soratidus999)
+
+--- Other changes ---
+* Fix Cord Belt anoint comparison tooltip (mcagnion)
+* Fix Hallowing flame buff not applying to minions and using wrong element for damage gain as (Paliak)
+* Fix Blade Blast default stage cap (OursCodeur)
+* Port various PoB2 buy similar and comparison tab PRs (vaisest)
+* Add support for some 3.29 wordings (vaisest)
+* Allocate Ascendancy Nodes through Custom Modifiers (Mar1cX)
+* Add support for "Unhallowed Rite" Occultist Ascendancy node (majochem)
+
 VERSION[2.65.0][2026/04/20]
 
 --- Fixed Crashes ---
